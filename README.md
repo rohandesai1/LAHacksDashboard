@@ -32,13 +32,14 @@ https://github.com/rohandesai1/LAHacksDashboard/assets/126644574/8883d370-0300-4
 
 ### Prerequisites
 
-Make sure you have the following libraries installed (python):
+Make sure you have the following libraries installed in Python:
 - BeautifulSoup
 - Requests
 - Numpy
 - Flask
 - Flask_CORS
-
+React:
+- React Router DOM
 ### Usage
 1. Clone this repository
    `git clone https://github.com/rohandesai1/LAHacksDashboard`
