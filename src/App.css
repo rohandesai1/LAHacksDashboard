@@ -1,0 +1,306 @@
+/* FONTS */
+@font-face {
+    font-family: "tessanreg";
+    src: url("fonts/tessanRegular.ttf");
+}
+@font-face {
+    font-family: "tessanbold";
+    src: url("fonts/tessanBold.ttf");
+}
+@font-face {
+    font-family: "synchro";
+    src: url("fonts/synchro.ttf");
+}
+/* ANIMATIONS */
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+
+@keyframes cursor {
+    from, to { border-color: transparent }
+    100% { border-color: blue; } 
+
+
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+@keyframes slideOff {
+0% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(-100%);
+}
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-29%);
+    }
+    }
+    
+
+
+/* INITIAL ANIMATION */
+
+.no-scroll {
+    overflow: hidden;
+    height: 100%;
+  }
+
+*{
+    animation:
+    slideInFromLeft 1.5s;
+   
+}
+
+.content{
+    animation-delay: 4s;
+    animation-name: slideUp;
+}
+
+
+.introVideo{
+    animation-delay: 4s;
+    animation-name: slideOff;
+   
+}
+
+
+
+/* KEY PRELIM INFO */
+.homeIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #e0dcdc;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 2em;
+    font-family: tessanbold;
+    background-color: #e0dcdc;
+
+    
+}
+
+
+.date{
+    border-bottom:blue;
+    border-radius: 1%;
+    border-style: groove;
+}
+.location{
+    border-bottom:blue;
+    border-radius: 1%;
+    border-style: groove;
+}
+.free {
+    border-bottom:blue;
+    border-radius: 1%;
+    border-style: groove;
+}
+
+/* PROJECTS PAGE */
+
+.linkToProjects{
+
+    font-size: 2em;
+    font-family: tessanbold;
+    background-color: #e0dcdc;
+    padding-top: 2%;
+    color:#3c1dd6;
+}
+
+.project{
+    font-family: tessanreg;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #e0dcdc;
+    padding-top: 4%;
+    border:#0c05e1;
+
+    
+}
+.projectTitle{
+    font-family: tessanbold;
+    font-size: 2em;
+    border:#0c05e1;
+}
+.projectsTitle{
+
+
+    font-family: tessanbold;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #e0dcdc;
+}
+
+.projectDescription{
+    font-size: 1.1em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* ANNOUNCEMENTS/SELLING POINTS */
+
+.announcementsWrapper{
+    font-family: tessanreg;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #e0dcdc;
+    
+}
+
+.announcements{
+    padding: 1%;
+    letter-spacing: 1px;
+    background-color: #e0dcdc;
+
+
+    display: grid;
+
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 20px;
+   /* grid-gap: 10%  */
+        
+}
+
+.announcementSubHeading{
+    font-size: 2em;
+}
+
+
+.individualAnnouncement{
+    font-size: 1.3em;
+    padding: 3%;
+    border: 4px solid  rgb(83, 83, 239);
+
+    border-image: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(78,11,112,1) 0%, rgba(0,212,255,1) 100%);
+    border-image-slice: 1;
+    border-radius: 200px;
+    margin-top: 5%;
+
+}
+
+
+
+.partition{
+    background-color: #e0dcdc;
+    padding-top: 5%;
+
+    border-bottom: 0.5em dashed  blueviolet;
+    border-image: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(78,11,112,1) 0%, rgba(0,212,255,1) 100%);
+
+
+    border-image-slice: 1;
+
+
+
+}
+/* VIDEOS/PICS */
+
+.rollThroughVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0dcdc;
+
+    
+}
+
+
+
+/* SCHEDULE */
+.scheduleWrapper{
+    font-family: tessanreg;
+    background-color: #e0dcdc;
+}
+
+
+.scheduleTitle{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 3em;
+    font-family: tessanbold;
+    background-color: #e0dcdc;
+    color: blueviolet;
+}
+
+
+.dayTag{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.9em;
+    font-family: tessanbold;
+    background-color: #e0dcdc;
+    color: blue;
+    padding:3%;
+
+}
+
+
+.schedule{
+    display: grid;
+    
+    padding-left: 28%;
+    padding-right: 28%;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+
+.event{
+    font-size: 2em;
+    display: grid;
+    padding-top: 5%;
+    
+}
+.eventTitle{
+  padding-left: 28%;
+  border-bottom: 0.05em solid  blueviolet;
+  border-top: 0.05em solid  rgba(0, 0, 255, 0.336);
+  background: -webkit-linear-gradient(#7161c2, #0c05e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 30%;
+
+
+}
+
+
+.eventTime{
+    padding-left: 28%;
+ /*   border-bottom: 2px solid  rgba(0, 0, 255, 0.336);
+    border-radius: 30%; */
+}
+
+

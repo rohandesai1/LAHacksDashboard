@@ -1,2 +1,1 @@
-# LAHacksDashboard
- 
+# Hackathon Dashboard
