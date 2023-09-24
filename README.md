@@ -9,6 +9,8 @@ This dashboard integrates a React JS, CSS, HTML frontend, and a Flask (Python) b
 - [Explanation](#explanation)
  
 
+## Demo
+https://github.com/rohandesai1/LAHacksDashboard/assets/126644574/8883d370-0300-47cd-836b-869caf2ef95d
 ## Features
 
 - **Devpost Scraper**:
@@ -53,6 +55,4 @@ Make sure you have the following libraries installed (python):
    `python3 devpostScraper.py`
    `npm start`
 
-## Demo
-https://github.com/rohandesai1/LAHacksDashboard/assets/126644574/8883d370-0300-47cd-836b-869caf2ef95d
 
