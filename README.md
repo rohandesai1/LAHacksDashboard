@@ -1,1 +1,2 @@
-# Hackathon Dashboard
+# ***Hackathon Dashboard***
+This dashboard integrates a React JS, CSS, HTML frontend, and a Flask (Python) backend to create a sleek and intuitive hackathon dashboard. The homepage boasts numerous animations and provides links to a projects page. The projects page showcases a stateful app: the React frontend sends a Fetch POST request to the Flask backend which then scrapes Devpost for hackathon submissions, samples a few, and sends back the samples as a response.
