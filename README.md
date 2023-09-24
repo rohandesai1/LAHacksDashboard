@@ -38,7 +38,9 @@ Make sure you have the following libraries installed in Python:
 - Numpy
 - Flask
 - Flask_CORS
+
 React:
+
 - React Router DOM
 ### Usage
 1. Clone this repository
