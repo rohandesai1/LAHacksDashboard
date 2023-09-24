@@ -5,8 +5,6 @@ This dashboard integrates a React JS, CSS, HTML frontend, and a Flask (Python) b
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Full Code Breakdown](#code-breakdown)
-- [Explanation](#explanation)
  
 
 ## Demo
@@ -54,5 +52,3 @@ Make sure you have the following libraries installed (python):
 4. Run the web server and API server
    `python3 devpostScraper.py`
    `npm start`
-
-
