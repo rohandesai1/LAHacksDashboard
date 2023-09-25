@@ -71,7 +71,7 @@ React:
    - Python
    `pip install -r requirements.txt`
    - React
-   `npm install react-router-dom`
+   `npm install` (installs all required libraries)
 4. Run the web server and API server
    `python3 devpostScraper.py`
    `npm start`
