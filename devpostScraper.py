@@ -30,8 +30,8 @@ def main():
             sample = devpost.sample(numOfSample, titles, taglines, thumbnails, links) # sample random (top) projects
             for z in range(len(allSamples)):
                 allSamples[z] += sample[z] # accumulate samples
+        return json.dumps(allSamples) 
 
-        return json.dumps(allSamples)
 
 
 
