@@ -39,7 +39,6 @@ export default function CheckIn(){
                 }
             }
             if (!match){
-                const checkInDoc = doc(db, )
                 await addDoc(checkInRef, {in : true, personName : auth?.currentUser?.displayName, uid: id})
             }
         } catch(err){
