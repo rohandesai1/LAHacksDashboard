@@ -8,7 +8,14 @@ This dashboard integrates a **React JS**, **CSS**, **HTML** frontend, and a **Fl
  
 
 ## Demo
+### Full Demo (including firebase check in/check out system)
+
+
+https://github.com/rohandesai1/LAHacksDashboard/assets/126644574/456f6fe3-1abd-4d68-9803-2bef374e32af
+
+### What is in the repo (contact me for more details on the check in/out system)
 https://github.com/rohandesai1/LAHacksDashboard/assets/126644574/8883d370-0300-47cd-836b-869caf2ef95d
+
 ## Features
 
 - **Devpost Scraper**:
