@@ -26,10 +26,17 @@ def main():
             # [hackNum, numOfSample] -> [7,2] means get 2 projects from LA hacks 7
 
             devpost = Page(f"https://losaltoshacks{hackNum}.devpost.com/project-gallery")
+
             titles, taglines, thumbnails, links = devpost.data()
+
+
             sample = devpost.sample(numOfSample, titles, taglines, thumbnails, links) # sample random (top) projects
+
+
             for z in range(len(allSamples)):
                 allSamples[z] += sample[z] # accumulate samples
+
+
         return json.dumps(allSamples) 
 
 
@@ -86,8 +93,9 @@ class Page:
         indices = []
         for _ in range(numOfSamples):
             index = random.choice(possibleIndices)
-            possibleIndices = np.delete(possibleIndices, index) # prevents duplicates
+            possibleIndices = np.delete(possibleIndices, np.where(possibleIndices == index)) # prevents duplicates
             indices.append(index)
+
 
         titles, taglines, thumbnails, links = np.asarray(titles), np.asarray(taglines), np.asarray(thumbnails), np.asarray(links) # convert to np array so can be indexed with list[list]
         sampled = list(titles[indices]), list(taglines[indices]), list(thumbnails[indices]), list(links[indices])
