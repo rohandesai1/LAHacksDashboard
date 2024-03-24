@@ -1,4 +1,6 @@
 # ***Hackathon Dashboard***
+Developed as part of the application process for joining the Los Altos Hacks organizing team. 
+
 This dashboard integrates a **React JS**, **Firebase** **CSS**, **HTML** frontend, and a **Flask** (Python) backend to create a sleek and intuitive hackathon dashboard. The homepage includes numerous animations and provides links to a projects page. The projects page showcases a stateful app: the React frontend sends a Fetch POST request to the Flask backend which then scrapes Devpost for hackathon submissions in **real time**, samples a few, and sends back the samples as a response. The response is then interpreted and showcased on a new page using React Router. The project also includes a React component that acts as a central hub for users to check in, check out, and view the current status of other users. The data is stored in a Firebase database and connected to the React app. (**This is not included in the repo because I cannot share my API key**)
 
 
